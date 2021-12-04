@@ -9,7 +9,7 @@ function playVideo() {
     } 
 
 
-// ---- Specifications
+// ---- Text
 
 function dropDown(clickedRow) {
     var dropdownMenu = clickedRow.querySelector('ul')
