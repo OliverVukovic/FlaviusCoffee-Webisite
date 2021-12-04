@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo.png">
+    <title>Flavius coffee</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div>
+                <img class="white01" src="./assets/flavius-logo.jpg" alt="logo-black">
+            </div>
+            <div class="central-nav">
+                <h1>FLAVIUS <span>ESPRESSO COFFEE</span></h1>
+            </div>
+            <div class="contact">
+                <div class="language">
+                    Pozovite nas!
+                </div>
+                <div>
+                    <img class="tel" src="./assets/telefon.png" alt="mob" onclick="window.location = 'tel:0658077801';">
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="text-1">
+                <div class="options">
+                    <h3 class="small-headline">Nasa espresso kafa:</h3>
+                    <table>
+                        <tr>
+                            <td onclick="dropDown()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sequi voluptate. Voluptatibus, iusto earum. Earum expedita voluptatem ex, debitis sapiente ...</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </section>
+
+            <section class="photos">
+                <div class="espreso">
+                    <p class="es-txt">Espresso</p>
+                </div>
+                <div class="capucino">
+                    <p class="es-txt">Capuccino</p>
+                </div>
+                <div class="ipanema">
+                    <p class="es-txt">Ipanema</p>
+                </div>
+            </section>
+        
+            <section class="vivax">
+                    <button type="button" id="play-button" onclick="playVideo()">Play</button>
+                    <video src="./assets/video.MP4" id="video"></video>
+            </section>
+                    
+        </main>   
+
+        <footer>
+            <h2>Kontakt:</h2>
+            <h3>Flavius espresso coffee</h3>
+            <p>Adresa: Zeleni Venac, Beograd</p>
+            <p>tel: 06x 111 111</p>
+            <p>email: mail@mail.com</p>
+        </footer>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
