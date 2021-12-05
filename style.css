@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: #2d2d2d;
     overflow: scroll;
 }
 
@@ -29,7 +29,7 @@ body {
 
 header {
     width: 100%;
-    background-color: #000000;
+    background-color: #2d2d2d;
     color: whitesmoke;
     display: flex;
     justify-content: space-between;
@@ -37,11 +37,13 @@ header {
     align-content: center;
     position: fixed;
     padding: 15px;
+    padding-right: 35px;
     z-index: 3;
 }
 
 .white01 {
     border-radius: 50%;
+
 }
 
 .contact {
@@ -52,7 +54,7 @@ header {
 }
 
 .language {
-    color: var(--colorlang);
+    
     cursor: pointer;
 }
 
@@ -83,7 +85,7 @@ main {
     background-size: cover;
     width: 100%;
     height: 100vh;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .small-headline {
@@ -134,79 +136,88 @@ td {
     padding: 5px;
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #2d2d2d;
     gap: 5px;
 }
 
-.espreso {
+.red-blend {
     width: 30%;
     height: 300px;
     border: 2px solid rgb(146, 105, 105);
     border-radius: 8px;
     color: whitesmoke;
-    background-image: url("./assets/espesso.png");
+    background-image: url("./assets/red-blend.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     cursor: pointer;
     color: tomato;
     font-size: 25px;
     line-height: 28px;
 }
-.espreso:hover {
+.red-blend:hover {
     width: 36%;
     height: 330px;
     color: white;
     font-size: 30px;
+    background-image: url("./assets/espesso.png");
 }
 
 .es-txt {
     transform: rotate(-15deg);
     margin: auto;
-    margin-top: 145px;
+    margin-top: 45px;
 }
 
-.capucino {
+.utopia-blend {
     width: 30%;
     height: 300px;
     border: 2px solid rgb(146, 105, 105);
     border-radius: 8px;
+    background-image: url("./assets/utopia-blend.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    cursor: pointer;
+    color: tomato;
+    font-size: 25px;
+    line-height: 28px;
+}
+.utopia-blend:hover {
+    width: 36%;
+    height: 330px;
+    color: white;
+    font-size: 30px;
     background-image: url("./assets/kafa.png");
-    text-align: center;
-    cursor: pointer;
-    color: tomato;
-    font-size: 25px;
-    line-height: 28px;
-}
-.capucino:hover {
-    width: 36%;
-    height: 330px;
-    color: white;
-    font-size: 30px;
 }
 
-.ipanema {
+.ipanema-blend {
     width: 30%;
     height: 300px;
     border: 2px solid rgb(146, 105, 105);
     border-radius: 8px;
-    background-image: url("./assets/ipanema.png");
+    background-image: url("./assets/ipanema-blend.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     cursor: pointer;
     color: tomato;
     font-size: 25px;
     line-height: 28px;
 }
-.ipanema:hover {
+.ipanema-blend:hover {
     width: 36%;
     height: 330px;
     color: white;
     font-size: 30px;
+    background-image: url("./assets/ipanema.png");
 }
 
 .vivax {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #2d2d2d;
     position: relative;
 }
 
@@ -257,7 +268,7 @@ footer {
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: black;
+    background-color: #2d2d2d;
     color: whitesmoke;
     padding: 50px;
 }
@@ -309,6 +320,16 @@ footer {
         width: 90%;
         justify-content: space-between;
         margin: auto;
+    }
+
+    .red-blend {
+        background-image: url("./assets/red-blend-mob.png");
+    }
+    .utopia-blend {
+        background-image: url("./assets/utopia-blend-mob.png");
+    }
+    .ipanema-blend {
+        background-image: url("./assets/ipanema-blend-mob.png");
     }
 
     .player {
