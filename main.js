@@ -11,19 +11,14 @@ function playVideo() {
 
 // ---- Text
 
-function dropDown(clickedRow) {
-    var dropdownMenu = clickedRow.querySelector('ul')
-    dropdownMenu.classList.toggle('visible')
-}
+const modal = document.getElementById("klikni");
+const invisible = document.getElementById("in");
+const table = document.getElementById("table");
+const headline = document.getElementById("headline");
 
-// click listeners
-let rows = document.querySelectorAll('.row')
-// console.log(rows);
-
-rows.forEach(function(row){
-    row.addEventListener('click', function(){
-        dropDown(row)
-    })
+modal.addEventListener('click', () => {
+    invisible.style.display = "block";
+    table.style.opacity = 1;
+    headline.style.opacity = 1;
 })
-
 
