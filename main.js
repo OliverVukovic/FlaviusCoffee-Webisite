@@ -22,3 +22,16 @@ modal.addEventListener('click', () => {
     headline.style.opacity = 1;
 })
 
+
+
+// openModal = () => {
+//     var con = document.getElementById("in");
+//     con.classList.toggle("hidden");
+// }
+
+// .hidden {
+//   display: none;
+// }
+//     <table onclick="openModal()">Toggle
+//     <span id="in" class="hidden">Some text here</span>
+//     </table>

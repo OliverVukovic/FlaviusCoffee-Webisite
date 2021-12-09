@@ -113,6 +113,10 @@ main {
     gap: 5px;
 }
 
+/* .hidden {
+    display: none;
+} */
+
 table {
     border: 1px solid rgb(0, 0, 0);
     width: 100%;
@@ -316,7 +320,7 @@ footer {
     }
 
     .options {
-        width: 70%;
+        width: 80%;
         margin-bottom: 15px;
         margin-left: 0px;
     }
