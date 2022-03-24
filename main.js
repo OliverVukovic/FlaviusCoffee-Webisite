@@ -16,10 +16,19 @@ const invisible = document.getElementById("in");
 const table = document.getElementById("table");
 const headline = document.getElementById("headline");
 
+let isClicked = false;
 modal.addEventListener('click', () => {
+    if(!isClicked){
     invisible.style.display = "block";
     table.style.opacity = 1;
     headline.style.opacity = 1;
+    isClicked = true;
+} else {
+    invisible.style.display = "none";
+    table.style.opacity = 0.5;
+    headline.style.opacity = 0.5;
+    isClicked = false;
+}
 })
 
 
