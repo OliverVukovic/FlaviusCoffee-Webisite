@@ -80,7 +80,7 @@ main {
 
 .text-1 {
     display: flex;
-    background-image: url("./assets/enterijer.png");
+    background-image: url("./assets/pozadina.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
