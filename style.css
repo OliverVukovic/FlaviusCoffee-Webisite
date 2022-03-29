@@ -168,7 +168,7 @@ td {
     height: 330px;
     color: white;
     font-size: 30px;
-    background-image: url("./assets/espesso.png");
+    background-image: url("./assets/espesso.jpg");
 }
 
 .es-txt {
@@ -196,7 +196,7 @@ td {
     height: 330px;
     color: white;
     font-size: 30px;
-    background-image: url("./assets/kafa.png");
+    background-image: url("./assets/kafa.jpg");
 }
 
 .ipanema-blend {
@@ -218,7 +218,7 @@ td {
     height: 330px;
     color: white;
     font-size: 30px;
-    background-image: url("./assets/ipanema.png");
+    background-image: url("./assets/ipanema.jpg");
 }
 
 .vivax {
