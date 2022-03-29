@@ -80,7 +80,7 @@ main {
 
 .text-1 {
     display: flex;
-    background-image: url("./assets/pozadina.png");
+    background-image: url("./assets/pozadina.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -168,7 +168,7 @@ td {
     height: 330px;
     color: white;
     font-size: 30px;
-    background-image: url("./assets/espresso.jpg");
+    background-image: url("./assets/espresso.png");
 }
 
 .es-txt {
@@ -196,7 +196,7 @@ td {
     height: 330px;
     color: white;
     font-size: 30px;
-    background-image: url("./assets/kafa.JPG");
+    background-image: url("./assets/utopia.png");
 }
 
 .ipanema-blend {
