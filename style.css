@@ -298,7 +298,7 @@ footer {
         justify-content: center;
         padding: 5px;
         padding-top: 100px;
-        background-image: url("./assets/enterijer-mob.png");
+        background-image: url("./assets/mob-2.png");
     }
 
     .f1 {
@@ -334,11 +334,22 @@ footer {
     .red-blend {
         background-image: url("./assets/red-blend-mob.png");
     }
+    .red-blend:hover {
+        background-image: url("./assets/red-mob.png");
+    }
+
     .utopia-blend {
         background-image: url("./assets/utopia-blend-mob.png");
     }
+    .utopia-blend:hover {
+        background-image: url("./assets/utopia-mob.png");
+    }
+
     .ipanema-blend {
         background-image: url("./assets/ipanema-blend-mob.png");
+    }
+    .ipanema-blend:hover {
+        background-image: url("./assets/ipanema-mob.png");
     }
 
     .player {
